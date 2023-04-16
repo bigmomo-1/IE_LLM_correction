@@ -1,5 +1,4 @@
 # IE_LLM_correction
-# IE_LLM_correction
 ## 初始化训练数据
 通过ceph取出与wiki database align后的远程监督数据
 ```shell
