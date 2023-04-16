@@ -1,5 +1,12 @@
 # IE_LLM_correction
 ## 初始化训练数据
+通过ceph取出与wiki database align后的远程监督数据
+```shell
+    cd /mnt/data/user/wang_xiaolei/IE_LLM_data
+    tar -zvxf tacgen_data.tar.gz 
+    tar -zvxf kelm_data.tar.gz 
+    tar -zvxf TREx_data.tar.gz 
+```
 ```shell
     sh get_data.sh
 ```
