@@ -7,7 +7,13 @@
 + TREx
 + Kelm
 + tacgen
+
 参数 ner_data_count_per_dataset 和 re_data_count_per_dataset分别决定在每个数据集选取多少条 ner/re 的数据进行处理
 处理后的数据存储在tk-instruct/train_data/{ner|re}/train.json
 
 用于eval的数据存储在tk-instruct/train_data/{ner|re}/validation/{subtask_name}.json
+
+## 预训练
+```shell
+    sh Tk-instruct/scripts/train_IE.sh
+```
