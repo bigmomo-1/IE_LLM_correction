@@ -17,3 +17,5 @@
 ```shell
     sh Tk-instruct/scripts/train_IE.sh
 ```
+目前加入correction的迭代输入设置如下：
+![demo](/path/to/img.jpg "Title")
